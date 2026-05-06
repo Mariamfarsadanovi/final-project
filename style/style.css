@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+}
+.nav.link {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav.link li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  transition: 0.3s;
+}
