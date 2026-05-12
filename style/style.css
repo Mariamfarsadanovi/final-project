@@ -31,3 +31,25 @@ header {
   font-weight: 500;
   transition: 0.3s;
 }
+.hero-section {
+  height: 85vh;
+  background-image: url(/images/img1.avif);
+
+  background-size: contain;
+  background-position: center;
+}
+.hero-text {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
