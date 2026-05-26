@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/reset.css" />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/responsive.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
     <title>Document</title>
   </head>
   <body>
@@ -18,13 +18,18 @@
           <ul class="nav link">
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About us</a></li>
+             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#clothes">Clothes</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#book">Book now</a></li>
           </ul>
         </nav>
       </div>
-    </header>
+   
+   <div class="burger" id="burger">
+    <span> ☰</span>
+   
+  </div>
+</header>
     <main>
       <section class="hero-section" id="hero">
         <div class="hero-text">
@@ -35,8 +40,64 @@
             from home.
           </p>
         </div>
-      </section>
-      <section></section>
+<section class="about-us" id="about">
+  <div class="about-text">
+    <h2>About Us</h2>
+    <p>
+      Welcome to our clothes shop! We provide stylish and modern fashion
+      for everyone with quality and comfort.
+    </p>
+  </div>
+
+  <div class="carousel">
+    <div class="slides">
+      <img src="./images/imga.jpg" class="slide active" alt="fashion" />
+      <img src="./images/im.jpg" class="slide" alt="clothes" />
+      <img src="./images/imgg.jpg" class="slide" alt="style" />
+    </div>
+
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+</section>
+    <section class="testimonial-section" id="testimonial">
+  <h2>What Our Customers Say</h2>
+
+  <div class="testimonial-container">
+    <div class="testimonial-card">
+       <img src="./images/imgt1.jpg" class="slide active" alt="testimonial" />
+        <p>
+        “Amazing quality clothes and fast delivery. I really love the style!”
+      </p>
+      <h4>- Maria</h4>
+    </div>
+
+    <div class="testimonial-card">
+       <img src="./images/imgt2.jpg" class="slide active" alt="testimonial" />
+        <p>
+        “Very modern fashion and affordable prices. Highly recommended!”
+      </p>
+      <h4>- Anna</h4>
+    </div>
+
+    <div class="testimonial-card">
+       <img src="./images/imgt3.jpg" class="slide active" alt="testimonial" />
+        <p>
+        “Best online clothes shop! The products look exactly like the photos.”
+      </p>
+      <h4>- Sofia</h4>
+    </div>
+   <div class="testimonial-card">
+      <img src="./images/imgt4.jpg" alt="Customer">
+      <p>
+        “Very good quality and beautiful clothes. I will shop again!”
+      </p>
+      <h4>- Emily</h4>
+    </div>
+</div>
+
+</section>
     </main>
+    <script src="/script.js"></script>
   </body>
 </html>
