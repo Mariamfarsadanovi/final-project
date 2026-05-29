@@ -1,0 +1,136 @@
+@media (max-width: 992px) {
+  .about-us {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 5%;
+  }
+
+  .carousel {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .slide {
+    height: 450px;
+  }
+
+  .products-container {
+    gap: 15px;
+  }
+
+  .card {
+    width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .nav.link {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: black;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .nav.link.active {
+    display: flex;
+  }
+
+  .hero-logo a {
+    font-size: 28px;
+  }
+
+  .hero-section {
+    height: 70vh;
+    background-size: cover;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .slide {
+    height: 350px;
+  }
+
+  .testimonial-container,
+  .products-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-card,
+  .card {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .book-content {
+    width: 90%;
+  }
+  .footer {
+    padding: 15px 10px;
+  }
+
+  .footer-container h2 {
+    font-size: 20px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-links a {
+    margin: 0;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .testimonial-section h2,
+  .products-section h2,
+  .book-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .slide {
+    height: 280px;
+  }
+}
